@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design Colours -->
+    <!-- Light Blue -->
+    <color name="base_blue">#03A9F4</color>             <!-- 500 -->
+    <color name="base_blue_darkest">#01579B</color>     <!-- 900 -->
+    <color name="base_blue_darker">#0288D1</color>      <!-- 700 -->
+    <color name="base_blue_lighter">#4FC3F7</color>     <!-- 300 -->
+    <color name="base_blue_lightest">#B3E5FC</color>    <!-- 100 -->
+
+    <!-- Amber -->
+    <color name="main_complementary_color">#FFC107</color>          <!-- 500 -->
+    <color name="main_complementary_color_darkest">#FF6F00</color>  <!-- 900 -->
+    <color name="main_complementary_color_darker">#FFA000</color>   <!-- 700 -->
+    <color name="main_complementary_color_lighter">#FFD54F</color>  <!-- 300 -->
+    <color name="main_complementary_color_lightest">#FFECB3</color> <!-- 100 -->
+    <color name="main_complementary_color_faint">#FFECB3</color>    <!-- 50 -->
+
+    <!-- Gray Scale -->
+    <color name="main_background_gray">#F9F9F9</color>
+    <color name="secondary_backgroud_gray">#F5F5F5</color>
+
+    <!-- General -->
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#424242</color>
+    <color name="gray_900">#212121</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="transparent">#00000000</color>
+    <color name="transluscent_white">#EDFFFFFF</color>
+    <color name="transluscent_gray">#70000000</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="GrayLight">#d3d3d3</color>
+    <color name="BlueLightTransparent">#87cefa</color>
+    <color name="BlueDark">#0515b5</color>
+
+    <color name="main_border_gray">#E0E0E0</color>
+    <color name="post_timestamp_gray">@color/gray_500</color>
+    <color name="post_verb_gray">@color/post_timestamp_gray</color>
+
+    <color name="refresh_progress_1">#e91e63</color>
+    <color name="refresh_progress_2">#00b0ff</color>
+    <color name="refresh_progress_3">#3f51b5</color>
+    <!-- text Colours -->
+    <color name="post_text_color">#424242</color>
+    <color name="post_comment_color">#424242</color>
+    <color name="post_author_color">#212121</color> <!-- Material Grey 900 -->
+    
+    <!-- Buttons -->
+    <color name="button_plain">@color/white</color>
+    <color name="button_interactivity_bar">@color/secondary_backgroud_gray</color>
+
+
+    <!-- Post Cards -->
+    <color name="post_card_background">#FFF</color>
+    <color name="post_card_border_color">@color/main_border_gray</color>
+
+
+
+</resources>

@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yookos.mobileapp.HometownActivity">
+
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView7"
+        android:layout_below="@+id/app_bar"
+        android:layout_margin="16dp" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Which town do you come from?"
+                android:id="@+id/textView12"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:text="Tell us which town you come from?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtown" />
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/lvtowns" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:id="@+id/btnsave" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

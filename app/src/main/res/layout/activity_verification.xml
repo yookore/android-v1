@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yookos.mobileapp.VerificationActivity">
+
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_below="@+id/app_bar" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:text="Click on the verification link we sent to: amukelanih@hotmail.com" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:id="@+id/emailverification" />
+
+            <TextView
+                android:text="OR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:id="@+id/oroption" />
+
+            <TextView android:text="Enter the verification code sent to: +270833013225" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:id="@+id/cellverification" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edverificationcode"
+                android:textColorHint="#ccc"
+                android:textColor="#000"
+                android:hint="Verification code"
+                android:inputType="text"
+                android:cursorVisible="true"
+                android:background="@drawable/post_card"
+                android:padding="10dp"
+                android:layout_below="@+id/scrollView2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Proceed"
+                android:textAllCaps="false"
+                android:id="@+id/btnproceed"
+                android:layout_gravity="center_horizontal|top"
+                android:background="#009dd7"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_below="@+id/edverificationcode"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

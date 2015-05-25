@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yookos.mobileapp.HobbiesandInterests">
+
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4"
+        android:layout_below="@+id/app_bar"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="What are your Hobbies and Interests?"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView android:text="Tell Us what you like" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edhobbies"
+                android:hint="Search hobbies" />
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/lvhobbies" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:id="@+id/btnsave" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

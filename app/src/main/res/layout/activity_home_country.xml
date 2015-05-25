@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yookos.mobileapp.HomeCountryActivity">
+
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView6"
+        android:layout_below="@+id/app_bar"
+        android:layout_margin="16dp" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Which country do you come from?"
+                android:id="@+id/textView11"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:text="Tell us where you come from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spcountry"
+                android:spinnerMode="dialog"
+                android:entries="@array/country_array"
+                android:visibility="visible"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:id="@+id/btnsave" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
